@@ -1,0 +1,150 @@
+.cointainer{
+    position: relative;
+    width: 95%;
+    height: 900px;
+}
+
+.image{
+    background-image: url("C:\Users\Harsh\Desktop\demo\assignment\src\Images\Homepage.jpg");
+    position: absolute;
+    width: 50%;
+    height: 899.82px;
+}
+.Login{
+    /* position: relative; */
+    width: 1440px;
+    height: 900px;
+
+    background: #FFFFFF;
+    position: absolute;
+    width: 292px;
+    height: 35px;
+    left: 840px;
+    top: 223px;
+}
+.Singup{
+    width: 1440px;
+    height: 900px;
+
+    background: #FFFFFF;
+    position: absolute;
+    width: 292px;
+    height: 35px;
+    left: 840px;
+}
+
+.Passwordfield{
+    width: 350px;
+    height: 50px;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+.Password{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 11px;
+}
+.Emailfield{
+    width: 350px;
+    height: 50px;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+.Email{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 11px;
+    margin-top: 11px;
+}
+.Submit{
+    width: 358px;
+    height: 50px;
+    border-radius: 5px;
+    background: #04C45C;
+    margin-top: 20px;
+    
+}
+.Namefield{
+    width: 350px;
+    height: 50px;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+.Name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.pnumberfield{
+    width: 350px;
+    height: 50px;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+.pnumber{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 11px;
+}
+.dobfield{
+    width: 350px;
+    height: 50px;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+.dob{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 11px;
+}
+.CreateHeading{
+    width: 353px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-align: center;
+}
+img{
+    height: 200px;
+}
+.profile-pic{
+height:150px;
+width: 150px;
+position: relative;
+margin-top: 41%;
+left: 60%;
+transform: translate(-50%,-50%);
+border-radius: 50%;
+overflow: hidden;
+}
+#photo{
+    height: 100%;
+    width: 100%;
+}
+#file{
+    display: none;
+}
+#btn{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
