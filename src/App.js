@@ -25,7 +25,6 @@ function App() {
             setAuth(true)
             setEmail(item.email)
             setTimeout(() => {
-              console.log("HIiii")
               navigate("/home")
             }, );
           }else{
@@ -57,7 +56,7 @@ function App() {
             pnumber: '',
             dob: ''
         })
-        },);
+        });
         
     }
   return (

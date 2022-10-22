@@ -6,14 +6,13 @@ function Login(props) {
   const [emailDulicate,setEmailDuplicate] = useState("")
   const [passwordDulicate,setPasswordDuplicate] = useState("")
 
-  
 
-  useEffect(()=>{
-    setEmailDuplicate('')
-},[])
-useEffect(()=>{
-  setPasswordDuplicate('')
-},[])
+//   useEffect(()=>{
+//     setEmailDuplicate('')
+// },[])
+// useEffect(()=>{
+//   setPasswordDuplicate('')
+// },[])
 
 
 
@@ -31,13 +30,13 @@ useEffect(()=>{
           }}>
           <div>
             <label className='Email'>Email</label><br />
-            <input className='Emailfield' type="text" id="email" name="email" onChange={(e)=>{
+            <input required className='Emailfield' type="text" id="email" name="email" onChange={(e)=>{
               setEmailDuplicate(e.target.value)
             }}></input><br />
           </div>
           <div>
             <label className='Password'>Password</label><br />
-            <input className='Passwordfield' type="password" id="password" name="password" onChange={(e)=>{
+            <input required className='Passwordfield' type="password" id="password" name="password" onChange={(e)=>{
               setPasswordDuplicate(e.target.value)
             }}></input><br />
           </div>

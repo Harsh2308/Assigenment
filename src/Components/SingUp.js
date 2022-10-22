@@ -46,6 +46,7 @@ function SingUp(props) {
             <label className="Name">Name</label>
             <br />
             <input
+            required
               className="Namefield"
               type="text"
               id="name"
@@ -59,6 +60,7 @@ function SingUp(props) {
             <label className="Email">Email</label>
             <br />
             <input
+            required
               className="Emailfield"
               type="text"
               id="email"
@@ -72,6 +74,7 @@ function SingUp(props) {
             <label className="Password">Password</label>
             <br />
             <input
+            required
               className="Passwordfield"
               type="password"
               id="password"
@@ -85,6 +88,7 @@ function SingUp(props) {
             <label className="pnumber">Phone Number</label>
             <br />
             <input
+            required
               className="pnumberfield"
               type="number"
               id="pnumber"
@@ -97,7 +101,7 @@ function SingUp(props) {
           <div>
             <label className="dob">DOB</label>
             <br />
-            <input className="dobfield" type="date" id="dob" name="dob" value={data.dob} onChange={(event)=>{handleChange(event)}}></input>
+            <input required className="dobfield" type="date" id="dob" name="dob" value={data.dob} onChange={(event)=>{handleChange(event)}}></input>
             <br />
           </div>
 

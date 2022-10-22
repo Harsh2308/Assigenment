@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../Images/logo.jpg";
 import "../Style/Navbar.css";
+import TableFile from "./TableFile";
 
 
 function Home({ setAuth,data1,email }) {
@@ -27,6 +28,10 @@ function Home({ setAuth,data1,email }) {
             setUser(obj)
         }
     })
+},[])
+
+useEffect(()=>{
+  console.log(data1)
 },[])
   return (
     <div>
@@ -59,7 +64,9 @@ function Home({ setAuth,data1,email }) {
           <button onClick={changeUrl}>My Profile</button>
         </div>
       </div>
-      
+    </div>
+    <div>
+    <TableFile data1={data1} />
     </div>
     </div>
   );
